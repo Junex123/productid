@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>productid</display-name>
+  <welcome-file-list>
+    <welcome-file>product.html</welcome-file>
+
+  </welcome-file-list>
+  <servlet>
+  <servlet-name>com.product.prodetails</servlet-name>
+  <servlet-class>com.product.prodetails</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>com.product.prodetails</servlet-name>
+  <url-pattern>/detail</url-pattern>
+  </servlet-mapping>
+</web-app>
